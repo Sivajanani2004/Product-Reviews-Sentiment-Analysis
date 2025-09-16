@@ -34,7 +34,7 @@ def predict_sentiment(text):
     return sentiment, float(prediction)
 
 # --- Streamlit Layout ---
-st.set_page_config(page_title="Sentiment Analysis", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Sentiment Analysis Dashboard", page_icon="📊", layout="wide")
 
 # Custom CSS for background, cards, hover, and gradient bars
 st.markdown("""
