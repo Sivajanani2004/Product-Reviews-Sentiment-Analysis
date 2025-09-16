@@ -56,10 +56,12 @@ It uses **Machine Learning (LSTM model)** and is built with **Streamlit** so any
    cd sentiment-analysis-dashboard
  
 2. Install dependencies
+   ```bash
    pip install -r requirements.txt
 
 3. Run the Streamlit app
+   ```bash
    streamlit run app.py
 
-4. Open in your browse
+4. Open in your browser
    http://localhost:8501
